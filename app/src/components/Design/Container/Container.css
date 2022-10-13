@@ -1,0 +1,38 @@
+.container {
+  width: 90%;
+  margin: 4rem auto;
+}
+
+.loginContainer{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+}
+
+.loginContainer form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardContainer,.likeContainer:first-child,.likeContainer{
+  width: 20vw;
+  margin: 20vh auto;
+  background-color: white;
+  height: auto;
+  box-shadow: 0px 0px 6px #444;
+  padding: .5rem;
+}
+
+.likeContainer:first-child{
+  margin-bottom: 2vh;
+  margin-top: 13vh;
+}
+
+.likeContainer{
+  margin: 2vh auto;
+  
+}

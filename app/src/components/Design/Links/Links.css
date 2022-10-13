@@ -1,0 +1,18 @@
+.linkContainer{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: #777;
+    width: 20vw;
+    margin: 0 auto;
+}
+
+.active{
+    color: black;
+}
+
+.non-active{
+    opacity: 50%;
+}

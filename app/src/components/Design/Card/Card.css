@@ -1,0 +1,62 @@
+
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.cardInfo{
+    background-color: rgb(44, 81, 129);
+    margin: 0 auto;
+}
+
+.likeInfo{
+    margin: 0 auto;
+    background: rgb(44, 81, 129);
+    position: relative;
+}
+
+p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 0 1rem 1rem;
+    font-size: 14px;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    padding-top: 1rem;
+    color: white;
+}
+
+.trashIcon{
+    position: relative;
+    top: 0;
+    color: rgb(187, 76, 76);
+}
+
+.trashIcon:hover{
+    color:rgb(178, 34, 34);
+    cursor: pointer;
+}
+
+.heartIcon{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card__btn{
+    border-radius: 50px;
+}
+
+.id,.idLike{
+    position: absolute;
+}
+
+.idLike{
+    right: 0;
+    top:0;
+}
